@@ -828,8 +828,8 @@ section,
 	overflow: hidden;
 }
 
-.portfolio-item {
-	height: 100%;
+.portfolio .portfolio-item {
+	height: 400px;
 }
 
 .portfolio .portfolio-content img {
