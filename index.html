@@ -163,9 +163,7 @@
 						<a href="#" class="discord"><i class="bi bi-discord"></i></a>
 					</div>
 					<div class="mt-4">
-						<a href="assets/cv.pdf" download class="btn-rounded-accent">
-							Connect with me
-						</a>
+						<a href="#contact" class="btn-rounded-accent"> Connect with me </a>
 					</div>
 				</div>
 			</section>
@@ -861,77 +859,72 @@
 							</div>
 						</div>
 
+
+
 						<div class="col-lg-7">
 							<form
-								action="forms/contact.php"
-								method="post"
+								action="https://formspree.io/f/mgvapjwv"
+								method="POST"
 								class="php-email-form"
-								data-aos="fade-up"
-								data-aos-delay="200"
+							
 							>
 								<div class="row gy-4">
 									<div class="col-md-6">
-										<label for="name-field" class="pb-2">Your Name</label>
+										<label for="name" class="pb-2">Your Full Name</label>
 										<input
 											type="text"
+											id="name"
 											name="name"
-											id="name-field"
 											class="form-control"
-											required=""
+											required
 											placeholder="Enter your name"
 										/>
 									</div>
-
+						
 									<div class="col-md-6">
-										<label for="email-field" class="pb-2">Your Email</label>
+										<label for="email" class="pb-2">Your Email</label>
 										<input
 											type="email"
-											class="form-control"
+											id="email"
 											name="email"
-											id="email-field"
-											required=""
+											class="form-control"
+											required
 											placeholder="Enter your email"
 										/>
 									</div>
-
+						
 									<div class="col-md-12">
-										<label for="subject-field" class="pb-2">Subject</label>
+										<label for="subject" class="pb-2">Subject</label>
 										<input
 											type="text"
-											class="form-control"
+											id="subject"
 											name="subject"
-											id="subject-field"
+											class="form-control"
 											placeholder="Enter the subject"
 										/>
 									</div>
-
+						
 									<div class="col-md-12">
-										<label for="message-field" class="pb-2">Message</label>
+										<label for="message" class="pb-2">Message</label>
 										<textarea
-											class="form-control"
+											id="message"
 											name="message"
+											class="form-control"
 											rows="10"
-											id="message-field"
-											required=""
+											required
 											placeholder="Enter your message"
 										></textarea>
 									</div>
-
+						
 									<div class="col-md-12 text-center">
-										<div class="loading">Loading</div>
-										<div class="error-message"></div>
-										<div class="sent-message">
-											Your message has been sent. Thank you!
-										</div>
-
-										<button type="submit">Send Message</button>
+										<button type="submit"  class="btn-rounded-accent">Send Message</button>
 									</div>
 								</div>
 							</form>
 						</div>
-						<!-- End Contact Form -->
-					</div>
-				</div>
+						
+
+		
 			</section>
 			<!-- /Contact Section -->
 		</main>
